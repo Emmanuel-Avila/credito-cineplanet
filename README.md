@@ -12,7 +12,10 @@ Este proyecto usa node packet manager version 9.8.1, con Node version 18.18.2 y 
 
 Como se usa la base de datos de Azure SQL Server antes de que inicien agradecería que me dieran su ip y la mascara para poder darles acceso a la base de datos
 
-Antes de ejecutar el proyecto, asegúrate de configurar las variables de entorno adecuadas en un archivo `.env`. Puedes utilizar el siguiente formato:
+Antes de ejecutar el proyecto, asegúrate de configurar las variables de entorno adecuadas en un archivo `.env` para el ambiente local con Nest y para el ambiente local
+de azure por favor cambiar tu archivo `local.settings.json` con lo siguiente:
+
+Utilizar el siguiente formato:
 
 - ENCRYPTION_KEY=TuClaveDeEncriptación  
   DATABASE_HOST=TuHostDeBaseDeDatos
