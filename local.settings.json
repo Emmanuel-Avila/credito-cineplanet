@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "ENCRYPTION_KEY": "GwHNDs6w5%vtSx",
+    "DATABASE_HOST": "database-server-test.database.windows.net",
+    "DATABASE_PORT": 1433,
+    "DATABASE_ USERNAME": "CloudSA7384a0df",
+    "DATABASE_PASSWORD": "V@Y8Pe5VJ9!^tu",
+    "DATABASE_NAME": "credit-card-cineplanet"
+  }
+}
