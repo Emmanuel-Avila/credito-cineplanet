@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { CreditCardsService } from './credit-cards.service';
 import { CreditCardsController } from './credit-cards.controller';
-import { SecureStorageService } from 'src/secure-storage/secure-storage.service';
+import { SecureStorageService } from '../secure-storage/secure-storage.service';
 
 @Module({
   controllers: [CreditCardsController],

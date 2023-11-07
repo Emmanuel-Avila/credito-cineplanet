@@ -1,8 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CreditCardDto } from './dto/create-credit-card.dto';
-import { UpdateCreditCardDto } from './dto/update-credit-card.dto';
-import { Error, Result } from 'src/error-management/error-management';
-import { SecureStorageService } from 'src/secure-storage/secure-storage.service';
+import { Error, Result } from '../error-management/error-management';
+import { SecureStorageService } from '../secure-storage/secure-storage.service';
 import { CreditCardDetails, EncriptedCreditCardDetails } from './credit-card-types';
 
 @Injectable()

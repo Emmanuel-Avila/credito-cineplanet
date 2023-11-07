@@ -1,7 +1,7 @@
 import { Controller, Post, Body, HttpException } from '@nestjs/common';
 import { CreditCardsService } from './credit-cards.service';
 import { CreditCardDto } from './dto/create-credit-card.dto';
-import { Result } from 'src/error-management/error-management';
+import { Result } from '../error-management/error-management';
 
 
 @Controller('credit-cards')
